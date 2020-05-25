@@ -29,5 +29,5 @@ jobs:
       uses: bacongobbler/azure-blob-storage-upload@v1.1.0
       with:
         connection_string:  ${{ secrets.BLOB_CONNECTION_STRING }}
-        container: code-of-conduct
+        container_name: code-of-conduct
         source_dir: .
